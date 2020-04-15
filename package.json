@@ -1,0 +1,26 @@
+{
+  "name": "node-airbnb",
+  "version": "1.0.0",
+  "description": "NodeJS + Express project, following Airbnb code styling ethics.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danibeam/Node-AirbnbStyled.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "airbnb",
+    "tslint",
+    "typescript"
+  ],
+  "author": "Daniel Belmonte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danibeam/Node-AirbnbStyled/issues"
+  },
+  "homepage": "https://github.com/danibeam/Node-AirbnbStyled#readme"
+}
