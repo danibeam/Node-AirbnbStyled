@@ -4,6 +4,9 @@
   "description": "NodeJS + Express project, following Airbnb code styling ethics.",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
+    "start": "NODE_ENV=production node ./build/index.js",
+    "dev": "ts-node-dev --respawn --transpileOnly ./src/index.ts",
     "test": "test"
   },
   "repository": {
@@ -22,5 +25,9 @@
   "bugs": {
     "url": "https://github.com/danibeam/Node-AirbnbStyled/issues"
   },
-  "homepage": "https://github.com/danibeam/Node-AirbnbStyled#readme"
+  "homepage": "https://github.com/danibeam/Node-AirbnbStyled#readme",
+  "devDependencies": {
+    "ts-node-dev": "1.0.0-pre.44",
+    "typescript": "3.8.3"
+  }
 }
