@@ -13,6 +13,11 @@
     "prettier:write": "npm run prettier:base -- --write \"src/**/*.{ts,tsx}\"",
     "test": "test"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run prettier:write"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/danibeam/Node-AirbnbStyled.git"
@@ -32,6 +37,7 @@
   "homepage": "https://github.com/danibeam/Node-AirbnbStyled#readme",
   "devDependencies": {
     "@types/express": "4.17.6",
+    "husky": "4.2.5",
     "prettier": "2.0.4",
     "ts-node-dev": "1.0.0-pre.44",
     "tslint": "6.1.1",
